@@ -1,9 +1,9 @@
 # Proyecto de Raspberry Pi Pico y Sensor BME280
 ## Requisitos
 
-*Raspberry Pi Pico
-*Sensor BME280 fabricado por Pimoroni
-*Conexión a Internet (opcional)
+* Raspberry Pi Pico
+* Sensor BME280 fabricado por Pimoroni
+* Conexión a Internet (opcional)
 
 ## Conexión de pines
 
