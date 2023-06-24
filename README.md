@@ -38,3 +38,7 @@ Los datos recopilados se guardan en archivos en la memoria interna de la Raspber
 Recuerda ajustar la configuración de pines según tus conexiones específicas.
 
 ¡Disfruta de tu proyecto de Raspberry Pi Pico y Sensor BME280! Si tienes alguna pregunta, no dudes en consultar la documentación adicional o buscar ayuda en la comunidad de Raspberry Pi.
+
+## Disclaimer
+
+La RPi Pico si no esta conectada a una PC tomara "epoch" como la hora local, por lo que los datos estaran emparejados a fechas no correspondientes.
