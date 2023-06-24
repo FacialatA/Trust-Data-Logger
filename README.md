@@ -12,7 +12,7 @@ Conecta los pines de la Raspberry Pi Pico a los pines correspondientes del senso
     Pin SDA del sensor -> Pin GP14 de la Raspberry Pi Pico
     Pin SCL del sensor -> Pin GP15 de la Raspberry Pi Pico
 
-    ![imagen](https://github.com/FacialatA/PicoDataLogger/assets/92767544/e2a02bd6-3e35-4fe6-bc84-bf2f59aeae7a)
+![imagen](https://github.com/FacialatA/PicoDataLogger/assets/92767544/e2a02bd6-3e35-4fe6-bc84-bf2f59aeae7a)
 
 
 Asegúrate de que la Raspberry Pi Pico esté conectada correctamente y los pines estén configurados según tus necesidades.
