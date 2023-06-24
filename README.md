@@ -1,4 +1,4 @@
-# Proyecto de Raspberry Pi Pico y Sensor BME280: Data Logger
+# Data Logger: Proyecto de Raspberry Pi Pico y Sensor BME280
 ## Requisitos
 
 * Raspberry Pi Pico
