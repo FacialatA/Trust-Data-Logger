@@ -9,14 +9,14 @@ i2c = I2C(1, scl=Pin(15), sda=Pin(14))
 bme = bme280.BME280(i2c=i2c)
 
 #ESTABLECER FECHA Y LUGAR
-lugar = "INCUBADORA PROSPECCION"
-fecha = str(25062023)
-fecha_anio = fecha[0:2]
-fecha_mes = fecha[2:4]
-fecha_dia =fecha[4:]
+lugar = "incubadora prospeccion"
+fecha = str(20230630)
+fecha_anio = fecha[0:4]
+fecha_mes = fecha[4:6]
+fecha_dia =fecha[6:]
 
 # Genero un nombre base para el archivo
-nombre_base = "data_" + fecha + "_" + lugar + "_"
+nombre_base = fecha + "_" + lugar
 
 # Verificar si existe un archivo con el nombre base
 contador = 0
@@ -24,15 +24,16 @@ while nombre_base + str(contador) in uos.listdir():
     contador += 1
 
 # Generar un nuevo nombre de archivo con el número de contador
-nombredearchivo = nombre_base + str(contador)
+nombredearchivo = nombre_base + str(contador) + ".csv"
 
 # Generar un archivo y abrirlo en modo escritura
 doc = open(nombredearchivo, "w")
+
 #Grabar una primer linea con la fecha establecida
-doc.write(fecha_anio + " ")
-doc.write(fecha_mes + " ")
-doc.write(fecha_dia + " ")
-doc.write(lugar + "\n")
+#doc.write(fecha_anio + " ")
+#doc.write(fecha_mes + " ")
+#doc.write(fecha_dia + " ")
+#doc.write(lugar + "\n")
 
 # Creo una variable para el led de la pi pico y una función para que parpadee
 led = Pin(25, Pin.OUT)
@@ -70,4 +71,4 @@ while True:
     doc.flush()
     
     # Espero 20 segundos para repetir el ciclo
-    utime.sleep(60)
+    utime.sleep(1200)
