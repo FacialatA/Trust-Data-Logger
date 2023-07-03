@@ -10,7 +10,7 @@ bme = bme280.BME280(i2c=i2c)
 
 #ESTABLECER FECHA Y LUGAR
 lugar = "incubadora prospeccion"
-fecha = str(20230630)
+fecha = str(20230703)
 fecha_anio = fecha[0:4]
 fecha_mes = fecha[4:6]
 fecha_dia =fecha[6:]
@@ -24,7 +24,7 @@ while nombre_base + str(contador) in uos.listdir():
     contador += 1
 
 # Generar un nuevo nombre de archivo con el número de contador
-nombredearchivo = nombre_base + str(contador) + ".csv"
+nombredearchivo = nombre_base + str(contador)
 
 # Generar un archivo y abrirlo en modo escritura
 doc = open(nombredearchivo, "w")
