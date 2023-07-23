@@ -24,7 +24,7 @@ while nombre_base + str(contador) in uos.listdir():
     contador += 1
 
 # Generar un nuevo nombre de archivo con el número de contador
-nombredearchivo = nombre_base + str(contador) + ".csv"
+nombredearchivo = nombre_base + str(contador)
 
 # Generar un archivo y abrirlo en modo escritura
 doc = open(nombredearchivo, "w")
@@ -70,5 +70,5 @@ while True:
     
     doc.flush()
     
-    # Espero 20 segundos para repetir el ciclo
+    # Espero 20 minutos para repetir el ciclo
     utime.sleep(1200)
