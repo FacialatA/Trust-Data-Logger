@@ -10,7 +10,7 @@ bme = bme280.BME280(i2c=i2c)
 
 #ESTABLECER FECHA Y LUGAR
 lugar = "incubadora prospeccion"
-fecha = str(20230630)
+fecha = str(20230703)
 fecha_anio = fecha[0:4]
 fecha_mes = fecha[4:6]
 fecha_dia =fecha[6:]
