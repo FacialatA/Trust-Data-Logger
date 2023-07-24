@@ -1,5 +1,6 @@
 ![Logo](https://github.com/FacialatA/Trust-Data-Logger/assets/92767544/3131dc2d-5edb-4105-937b-13e8f3cfa82d)
-#PROYECTO TRUST: Data logging economico
+
+# PROYECTO TRUST: Data logging economico
 ## Requisitos
 
 * Raspberry Pi Pico
