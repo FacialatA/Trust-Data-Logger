@@ -1,4 +1,5 @@
-# Data Logger: Proyecto de Raspberry Pi Pico y Sensor BME280
+![Logo](https://github.com/FacialatA/Trust-Data-Logger/assets/92767544/3131dc2d-5edb-4105-937b-13e8f3cfa82d)
+#PROYECTO TRUST: Data logging economico
 ## Requisitos
 
 * Raspberry Pi Pico
@@ -33,9 +34,9 @@ El código proporcionado configura la comunicación I2C con el sensor BME280 y r
 *    Escribe los datos recopilados en el archivo abierto.
 *    Espera 20 segundos y repite el ciclo.
 
-Los datos recopilados se guardan en archivos en la memoria interna de la Raspberry Pi Pico. Cada archivo tiene un nombre único basado en la fecha y hora de creación. Los archivos se crean en el formato "bme_data_YYYYMMDDHHMMSS.txt" donde "YYYY" representa el año, "MM" el mes, "DD" el día, "HH" la hora, "MM" el minuto y "SS" el segundo en que se creó el archivo.
+Los datos recopilados se guardan en archivos en la memoria interna de la Raspberry Pi Pico. C
 
-Recuerda ajustar la configuración de pines según tus conexiones específicas.
+Recuerda ajustar la configuración de pines según tus conexiones específicas, y cambiar los strings correspondientes a la fecha y lugar (ubicacion del logger) en el codigo!
 
 ¡Disfruta de tu proyecto de Raspberry Pi Pico y Sensor BME280! Si tienes alguna pregunta, no dudes en consultar la documentación adicional o buscar ayuda en la comunidad de Raspberry Pi.
 
