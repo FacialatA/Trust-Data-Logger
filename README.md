@@ -56,4 +56,5 @@ Se recomienda descartar siempre el/los primer/os valor/es registrados para dismi
 
 ## DEPRECATED
 
-Nuevo dispositivo en desarrollo, se encuentra en: https://github.com/FacialatA/Trust_Data_Logger2.0
+El dispositivo no recibira nuevas actualizaciones, aunque asi como esta es funcional.
+Nuevo dispositivo en desarrollo, se encuentra en: https://github.com/FacialatA/Trust_Data_Logger2.0 incluye pantalla para visualizacion de datos en vivo.
