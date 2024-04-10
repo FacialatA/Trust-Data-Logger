@@ -1,8 +1,8 @@
-import establecer_fecha
+import config_file
 import uos
 
 # Genero un nombre base para el archivo
-nombre_base = establecer_fecha.fecha + "_" + establecer_fecha.lugar
+nombre_base = config_file.fecha + "_" + config_file.lugar
 
 # Verificar si existe un archivo con el nombre base
 contador = 0

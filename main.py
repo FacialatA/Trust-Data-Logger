@@ -1,9 +1,5 @@
-from machine import Pin, I2C
 import utime
-import uos
-import bme280
 import _thread
-import generarnombrearchivo
 import sensor
 import led
 
@@ -14,9 +10,9 @@ led.led.off()
 
 
 #Espero
-#utime.sleep(10)
+utime.sleep(1)
 
-# Registro los datos en el archivo
+# Registro los datos en el archivo mientras en otro hilo parpadea el led
 _thread.start_new_thread(led.parpadeo, ())
 while True:
     sensor.escribir_datos_sensor()
