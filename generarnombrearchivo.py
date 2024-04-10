@@ -2,7 +2,7 @@ import config_file
 import uos
 
 # Genero un nombre base para el archivo
-nombre_base = config_file.fecha + "_" + config_file.lugar
+nombre_base = config_file.fecha + "_" + config_file.titulo_del_archivo
 
 # Verificar si existe un archivo con el nombre base
 contador = 0
