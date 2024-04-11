@@ -2,7 +2,7 @@
 #Ingresar año, mes y dia en formato string (entre parentesis)
 #siguiendo el formato DD/MM/AAAA
 
-titulo_del_archivo = "database"
+nombre_del_archivo = "database"
 año = "2024"
 mes = "00"
 dia = "00"
