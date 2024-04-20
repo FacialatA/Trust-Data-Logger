@@ -3,6 +3,7 @@ import bme280
 import utime
 from machine import Pin, I2C
 import config_file
+import genenerarnombrearchivo
 
 i2c = I2C(1, scl=Pin(15), sda=Pin(14))
 bme = bme280.BME280(i2c=i2c)
@@ -23,7 +24,7 @@ def calibracion_sensor():
 
 # Abro el archivo CSV y defino la funcion para guardar los datos    
 
-doc = open(config_file.nombredearchivo, "w")
+doc = open(generarnombrearchivo.nombredearchivo, "w")
 # Escribo los datos que recogí en el archivo que abrí
 def escribir_datos_sensor():
     # Recojo los datos en variables
