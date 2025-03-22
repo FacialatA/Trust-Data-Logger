@@ -52,4 +52,5 @@ Recuerda ajustar la configuración de pines según tus conexiones específicas, 
 La RPi Pico si no esta conectada a una PC tomara "epoch" como la hora local, por lo que los datos estaran emparejados a fechas no correspondientes.
 Se recomienda descartar siempre el/los primer/os valor/es registrados para disminuir el error.
 
-![imagen]([https://github.com/FacialatA/PicoDataLogger/assets/92767544/e2a02bd6-3e35-4fe6-bc84-bf2f59aeae7a](https://github.com/FacialatA/Trust-Data-Logger/blob/main/Poster%202.png))
+![Poster 2](https://github.com/user-attachments/assets/f0042399-ea29-411a-a43b-8fa7bdf2030e)
+
