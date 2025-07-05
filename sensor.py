@@ -3,7 +3,7 @@ import bme280
 import utime
 from machine import Pin, I2C
 import config_file
-import genenerarnombrearchivo
+import generarnombrearchivo
 
 i2c = I2C(1, scl=Pin(15), sda=Pin(14))
 bme = bme280.BME280(i2c=i2c)
